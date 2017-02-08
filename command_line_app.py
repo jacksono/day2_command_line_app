@@ -48,4 +48,5 @@ if __name__ == '__main__':
         main(sys.argv[1], sys.argv[2])
     except(IndexError):
         print('Please enter the city id and API key as command line arguments after the script file name')
-
+        print('For Nairobi use city ID 184742')
+        print('My personal key is 69e7171295188958144216fbaef8f988, use for testing purposes only')
